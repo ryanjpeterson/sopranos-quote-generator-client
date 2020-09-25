@@ -1,0 +1,25 @@
+.quote-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: auto;
+  grid-column: span 10;
+  grid-row: span 12;
+  overflow-y: scroll;
+}
+
+.quotes {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  padding: 1rem;
+  grid-column: span 12;
+  grid-row: span 12;
+}
+
+@media screen and (max-width: 1150px) {
+  .quote-container {
+    grid-row: span 12;
+    grid-column: span 12;
+  }
+}

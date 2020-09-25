@@ -1,0 +1,41 @@
+.quote {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+
+  background: rgba(32, 32, 32, 0.95);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  grid-row: span 4;
+  grid-column: span 4;
+}
+
+.quote-image {
+  border-radius: 50%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.quote-timeline {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1150px) {
+  .quote {
+    grid-column: span 6;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .quote {
+    grid-column: span 12;
+  }
+}

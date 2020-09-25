@@ -1,0 +1,21 @@
+.page-header {
+  text-align: center;
+}
+
+.page-header-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-quote {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  grid-column: span 12;
+  background: rgba(32, 32, 32, 0.9);
+}

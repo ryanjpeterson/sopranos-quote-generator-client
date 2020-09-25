@@ -1,0 +1,6 @@
+.home-page {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, minmax(min-content, 1fr));
+  height: 100%;
+}
